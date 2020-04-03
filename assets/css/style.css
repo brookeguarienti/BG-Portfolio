@@ -295,9 +295,9 @@ h3.subtitle {
     height: 100%;
     min-height: 300px;
     position: relative;
-    background-image: url(../img/bg/header-bg.png);
+    background-image: url(../img/Brooke_Headshots-11.JPG);
     background-size: cover;
-    background-position: center top;
+    background-position: center;
 }
 
 .header-area:before {
