@@ -1,0 +1,247 @@
+/* ----------------------------------------------------------------------------------------
+* Author        : Aman
+* Template Name : Rejume | Personal Resume Template
+* File          : Rejume Responsive css files
+* Version       : 1.0     
+* ---------------------------------------------------------------------------------------- */
+  
+
+/* Medium Layout */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .social {
+        height: 160px;
+    }
+    .social span {
+        margin: 4px;
+    }
+    .social span i {
+        width: 45px;
+        line-height: 42px;
+    }
+}
+
+
+/* Tablet Layout */
+
+@media only screen and (max-width: 991px) {
+    .caption h1 {}
+
+    h3.subtitle {
+        font-size: 20px;
+    }
+    
+    .navbar-nav li a {
+        padding: 15px 10px;
+    }
+
+    .me-image {
+        border-right: 0px;
+        padding-top: 0px;
+    }
+    .social {
+        text-align: left;
+        border-right: none;
+        border-bottom: 1px dashed #999;
+        padding-left: 15px;
+    }
+    .about-text {
+        margin: 0px 20px;
+    }
+    .resume-area {
+        margin-top: 0px;
+    }
+    .skill-area {
+        padding-bottom: 30px;
+    }
+
+    .accordion {
+        margin-bottom: 0;
+    }
+
+    .skills.left ,
+    .accordion.left {
+        margin-bottom: 50px;
+    }
+    .skill-progress-bar {
+        margin-bottom: 30px;
+    }
+
+    .single-service,
+    .price-item {
+        margin-bottom: 30px;
+    }
+    .portfolio-caption h4 {
+        margin-top: 80px;
+    }
+    .testimonial-item i.fa {
+        margin-top: 20px;
+    }
+    .interests span {
+        width: 33%;
+    }
+
+
+}
+
+
+/* Mobile Layout */
+
+@media only screen and (max-width: 767px) {
+
+    .section {
+        padding: 50px 0px;
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+    .section-title h2 {
+        line-height: 30px;
+    }
+    .caption h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+    .caption p {
+        line-height: 30px;
+        font-size: 20px;
+        color: #fff;
+        margin: 15px auto;
+    }
+    .caption .btn, .btn, input[type='submit'] {
+        margin-top: 5px;
+        padding: 8px 20px;
+    }
+
+
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        background: #337ab7;
+    }
+    .navbar {
+        min-height: 0px;
+    }
+    .mainmenu .navbar-nav {
+        margin: 0;
+    }
+    .mainmenu .navbar-nav li {
+        float: none;
+        display: block;
+    }
+    .mainmenu .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 420px;
+    }
+    .navbar-toggle {}
+    a.about-button {
+        margin-top: 0;
+    }
+
+    .header-area:before {
+        /*background: rgba(255, 255, 255, 0.5);*/
+    }
+
+    .me-image {}
+    .resume-area {}
+    .skills-area {
+        padding-bottom: 10px;
+    }
+
+
+    .about-text h2,
+    .single-service h2,
+    .testimonial-item h2,
+    .follow-me h2 {
+        font-size: 22px;
+    }
+
+    .filters li {
+        margin: 0px 10px;
+    }
+
+    .single-testimonial {
+        padding: 0 30px;
+    }
+
+    .testimonial-item i.fa {
+        margin-top: 20px;
+    }
+    .interests span {
+        width: 33%;
+    }
+    .work-items .item {
+        margin-top: 15px;
+    }
+    h3.subtitle {
+        margin-bottom: 20px;
+    }
+    .contact-form {
+        margin-bottom: 50px;
+    }
+    .contact-form .form-group.in_message {
+        border-bottom: 1px dashed #999;
+    }
+    .contact-info {
+        text-align: left;
+    }
+    .contact-info i.fa {
+        float: left;
+        border-left: none;
+        border-right:  1px dashed #999;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+}
+
+
+/* Small Mobile Layout */
+
+@media only screen and (max-width: 480px) {
+    .filters li {
+        margin: 0 5px;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    .social span i {
+        width: 40px;
+        line-height: 40px;
+    }
+    .accordion .panel-title i.fa {
+        width: 33px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .accordion .panel-title .institute {
+        margin-left: 15px;
+        padding-left: 0px;
+    }
+    .accordion .panel-body {
+        margin-left: 2px;
+        padding-left: 12px;
+    }
+    .institute h4 {
+        line-height: 40px;
+    }
+    .accordion .panel-title:after {
+        top: 7px;
+    }
+    .interests span {
+        width: 50%;
+    }
+    .caption .btn {
+        margin-bottom: 10px;
+    }
+
+}
