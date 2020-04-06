@@ -28,7 +28,7 @@
 
 08. Portfolio/work area css
 
-09. Testimonial area css
+09. Recommendation area css
 
 10. Hobbies area css
 
@@ -438,7 +438,7 @@ h3.subtitle {
     margin-left: -20px;
     padding-left: 20px;
 }
-.personal-info li {}
+/* .personal-info li {} */
 .personal-info li p {
     margin-bottom: 10px;
 }
@@ -461,6 +461,13 @@ h3.subtitle {
     padding-bottom: 50px;
 }
 
+.skills {
+    text-align: left;
+}
+.skills.left {
+    text-align: right;
+}
+
 .skill-bar-container .h4 {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -473,27 +480,7 @@ h3.subtitle {
     letter-spacing: 2px;
 }
 
-.skill-progress-bar {
-    position: relative;
-    width: 100%;
-    margin-bottom: 30px;
-    background: #bbb;
-}
 
-.skill-progress-bar > span {
-    display: block;
-    width: 0;
-    height: 100%;
-    background: #508991;
-    color: #fff;
-    padding: 0 15px;
-}
-
-.skill-progress-bar .count {
-    float: right;
-    display: inline-block;
-    line-height: 35px;
-}
 
 
 
@@ -695,6 +682,10 @@ h3.subtitle {
     color: #fff;
 }
 
+.works {
+    color: #508991;
+}
+
 .work-items .item {
     margin-top: 30px;
     position: relative;
@@ -754,19 +745,19 @@ h3.subtitle {
 
 
 /* ----------------------------------------------------------------------------------------
-*                                09. Testimonial area css
+*                                09. Recommendation area css
 * --------------------------------------------------------------------------------------- */
-.testimonial-area {
+.recommendation-area {
     background: #f5f5f5;
 }
 
-.testimonial-list .single-service {
+.recommendation-list .single-service {
     margin: 15px auto;
     max-width: 800px;
     margin: 15px;
 }
 
-.testimonial-list .desg {
+.recommendation-list .desg {
     text-align: right;
     color: #000;
     margin: 0;

@@ -26,7 +26,7 @@
 
 07. Magnific Popup js
 
-08. Testimonial js
+08. Recommendation js
 
 09. Ajax Contact Form js
 
@@ -141,9 +141,9 @@
 
 
         /*  -------------------------------------------------------------------------  *
-         *                  08. Testimonial js                                         *
+         *                  08. Recommendation js                                         *
          *  -------------------------------------------------------------------------  */
-          $(".testimonial-list").owlCarousel({
+          $(".recommendation-list").owlCarousel({
               items: 2,
               autoPlay: false,
               navigation: true,

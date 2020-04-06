@@ -74,7 +74,7 @@
     .portfolio-caption h4 {
         margin-top: 80px;
     }
-    .testimonial-item i.fa {
+    .recommendation-item i.fa {
         margin-top: 20px;
     }
     .interests span {
@@ -160,7 +160,7 @@
 
     .about-text h2,
     .single-service h2,
-    .testimonial-item h2,
+    .recommendation-item h2,
     .follow-me h2 {
         font-size: 22px;
     }
@@ -169,11 +169,11 @@
         margin: 0px 10px;
     }
 
-    .single-testimonial {
+    .single-recommendation {
         padding: 0 30px;
     }
 
-    .testimonial-item i.fa {
+    .recommendation-item i.fa {
         margin-top: 20px;
     }
     .interests span {
