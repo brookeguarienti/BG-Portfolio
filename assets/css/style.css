@@ -126,8 +126,8 @@ fieldset {
     display: inline-block;
     background: #fff;
     padding: 10px 25px;
-    border: 2px solid #38618C;
-    color: #38618C;
+    border: 2px solid #508991;
+    color: #508991;
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 0px;
@@ -138,7 +138,7 @@ fieldset {
 }
 
 .btn:hover, input[type='submit']:hover {
-    background-color: #38618C;
+    background-color: #508991;
     color: #fff;
 }
 
@@ -225,7 +225,7 @@ h3.subtitle {
 *                               02. Navigation area css
 * --------------------------------------------------------------------------------------- */
 .sticky-menu {
-    background: #38618C;
+    background: #508991;
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
 }
@@ -295,7 +295,7 @@ h3.subtitle {
     height: 100%;
     min-height: 300px;
     position: relative;
-    background-image: url(../img/Brooke_Headshots-11.JPG);
+    background-image: url(../img/header/headerImg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -338,15 +338,15 @@ h3.subtitle {
 }
 
 .caption .btn {
-    background: #38618C;
+    background: #508991;
     color: #fff;
     margin-right: 10px;
 }
 
 .reverse:hover {
     background: #fff;
-    color: #38618C;
-    border: 2px solid #38618C;
+    color: #508991;
+    border: 2px solid #508991;
 }
 
 
@@ -373,6 +373,10 @@ h3.subtitle {
     margin-top: 0;
 }
 
+.about-github {
+    color: #508991;
+}
+
 .me-image {
     padding: 20px;
     border-right: 1px dashed #999;
@@ -394,17 +398,17 @@ h3.subtitle {
 
 .social span i {
     color: #fff;
-    background: #38618C;
+    background: #508991;
     width: 57px;
     line-height: 46px;
     font-size: 21px;
 }
 
 .social span i.fa-facebook:hover {
-    background: #38618C;
+    background: #3b5998;
 }
-.social span i.fa-twitter:hover {
-    background: #00aced;
+.social span i.fa-github:hover {
+    background: black;
 }
 .social span i.fa-linkedin:hover {
     background: #007bb6;
@@ -422,7 +426,7 @@ h3.subtitle {
 .myname {
     text-transform: uppercase;
     font-weight: 600;
-    color: #337ab7;
+    color: #508991;
     margin-top: 20px;
 }
 
@@ -480,7 +484,7 @@ h3.subtitle {
     display: block;
     width: 0;
     height: 100%;
-    background: #337ab7;
+    background: #508991;
     color: #fff;
     padding: 0 15px;
 }
@@ -554,7 +558,7 @@ h3.subtitle {
     top: 16px;
     right: 10px;
     font-size: 15px;
-    color: #337ab7;
+    color: #508991;
 }
 
 .accordion .active .panel-title:after {
@@ -568,7 +572,7 @@ h3.subtitle {
     width: 50px;
     height: 60px;
     line-height: 60px;
-    color: #337ab7;
+    color: #508991;
     margin-left: -30px;
 }
 
@@ -590,7 +594,7 @@ h3.subtitle {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
-    color: #337ab7;
+    color: #508991;
     line-height: 60px;
 }
 
@@ -622,7 +626,7 @@ h3.subtitle {
     height: 60px;
     line-height: 60px;
     text-align: center;
-    color: #337ab7;
+    color: #508991;
 }
 
 .single-service .ser-con {
@@ -634,7 +638,7 @@ h3.subtitle {
 
 .single-service h4 {
     position: relative;
-    color: #337ab7;
+    color: #508991;
     text-transform: uppercase;
     padding-bottom: 0;
     margin-left: 20px;
@@ -679,15 +683,15 @@ h3.subtitle {
     font-weight: 600;
     font-size: 16px;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
-    border: 2px solid #337ab7;
+    border: 2px solid #508991;
     line-height: 30px;
     padding: 0 20px;
-    color: #337ab7;
+    color: #508991;
 }
 
 .filters li.active,
 .filters li:hover {
-    background: #337ab7;
+    background: #508991;
     color: #fff;
 }
 
@@ -732,7 +736,7 @@ h3.subtitle {
 
 .work-items .overlay i.fa {
     font-size: 35px;
-    color: #337ab7;
+    color: #508991;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -786,18 +790,18 @@ h3.subtitle {
 .owl-theme .owl-controls .owl-buttons div {
     font-size: 15px;
     color: #ffffff;
-    background: #337ab7;
+    background: #508991;
     padding: 0 20px;
     border-radius: 0px;
     opacity: 1;
     margin: 0 5px;
     line-height: 30px;
-    border: 2px solid #337ab7;
+    border: 2px solid #508991;
 }
 
 .owl-theme .owl-controls .owl-buttons div:hover {
     background: #fff;
-    color: #337ab7;
+    color: #508991;
 }
 
 
@@ -838,7 +842,7 @@ h3.subtitle {
     font-size: 35px;
     width: 100%;
     margin-top: 35px;
-    color: #337ab7;
+    color: #508991;
     position: relative;
 }
 .interests span .h4 {
@@ -907,13 +911,13 @@ h3.subtitle {
 }
 .price-item.featured .info ,
 .price-item.featured .btn {
-    background-color: #337ab7;
+    background-color: #508991;
     color: #fff;
 }
 
 .price-item.featured .btn:hover {
     background: #fff;
-    color: #337ab7;
+    color: #508991;
 }
 
 
@@ -933,7 +937,7 @@ h3.subtitle {
     width: 60px;
     text-align: center;
     line-height: 60px;
-    color: #337ab7;
+    color: #508991;
     border-left: 1px dashed #999;
     margin-left: 20px;
 }
@@ -998,7 +1002,7 @@ h3.subtitle {
     width: 60px;
     text-align:center;
     line-height: 60px;
-    color: #337ab7;
+    color: #508991;
     border-right: 1px dashed #999;
     font-size: 25px;
 }
@@ -1018,13 +1022,13 @@ h3.subtitle {
 }
 
 .contact-form .btn {
-    background-color: #337ab7;
+    background-color: #508991;
     color: #fff;
 }
 
 .contact-form .btn:hover {
     background-color: #fff;
-    color: #337ab7;
+    color: #508991;
 }
 
 .success {
