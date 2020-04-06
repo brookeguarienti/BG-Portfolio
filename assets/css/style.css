@@ -126,8 +126,8 @@ fieldset {
     display: inline-block;
     background: #fff;
     padding: 10px 25px;
-    border: 2px solid #337ab7;
-    color: #337ab7;
+    border: 2px solid #38618C;
+    color: #38618C;
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 0px;
@@ -138,7 +138,7 @@ fieldset {
 }
 
 .btn:hover, input[type='submit']:hover {
-    background-color: #337ab7;
+    background-color: #38618C;
     color: #fff;
 }
 
@@ -225,7 +225,7 @@ h3.subtitle {
 *                               02. Navigation area css
 * --------------------------------------------------------------------------------------- */
 .sticky-menu {
-    background: #337ab7;
+    background: #38618C;
     transition: all 0.3s ease-out;
     -webkit-transition: all 0.3s ease-out;
 }
@@ -338,15 +338,15 @@ h3.subtitle {
 }
 
 .caption .btn {
-    background: #337ab7;
+    background: #38618C;
     color: #fff;
     margin-right: 10px;
 }
 
 .reverse:hover {
     background: #fff;
-    color: #337ab7;
-    border: 2px solid #337ab7;
+    color: #38618C;
+    border: 2px solid #38618C;
 }
 
 
@@ -394,14 +394,14 @@ h3.subtitle {
 
 .social span i {
     color: #fff;
-    background: #337ab7;
+    background: #38618C;
     width: 57px;
     line-height: 46px;
     font-size: 21px;
 }
 
 .social span i.fa-facebook:hover {
-    background: #3b5998;
+    background: #38618C;
 }
 .social span i.fa-twitter:hover {
     background: #00aced;
