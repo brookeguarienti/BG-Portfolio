@@ -666,9 +666,60 @@ h3.subtitle {
     transform: scale(1);
 }
 
+/* ----------------------------------------------------------------------------------------
+*                                   07. Service area css
+* --------------------------------------------------------------------------------------- */
 
+.service-area {
+    background: #f5f5f5;
+    padding-bottom: 30px;
+}
 
+.single-service {
+    margin-bottom: 40px;
+    padding: 0px 0px;
+    background: #fff;
+    overflow: hidden;
+}
 
+.single-service i.fas {
+    font-size: 30px;
+    float: left;
+    border-right: 1px dashed #bbb;
+    width: 70px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #508991;
+}
+
+.single-service .ser-con {
+    padding: 20px;
+    border-top: 1px dashed #bbb;
+    clear: both;
+    float: none;
+}
+
+.single-service h4 {
+    position: relative;
+    color: #508991;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    margin-left: 20px;
+    line-height: 40px;
+    float: left;
+    font-weight: 600;
+}
+
+.single-service h4:before {
+     content: '';
+     position: absolute;
+     background-color: #333;
+     width: 50px;
+     height: 0px;
+     bottom: 0;
+     left: 0;
+}
 
 /* ----------------------------------------------------------------------------------------
 *                                08. Recommendation area css
