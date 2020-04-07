@@ -26,9 +26,11 @@
 
 07. Portfolio/work area css
 
-08. Recommendation area css
+08. Service area css
 
-09. Footer area css
+09. Recommendation area css
+
+10. Footer area css
 
 -------------------------------------------------------------------------------------- */
 
@@ -652,7 +654,7 @@ h3.subtitle {
 }
 
 .work-items .overlay i.fa {
-    font-size: 35px;
+    font-size: 50px;
     color: #508991;
     position: absolute;
     top: 50%;
@@ -667,7 +669,7 @@ h3.subtitle {
 }
 
 /* ----------------------------------------------------------------------------------------
-*                                   07. Service area css
+*                                   08. Service area css
 * --------------------------------------------------------------------------------------- */
 
 .service-area {
@@ -722,7 +724,7 @@ h3.subtitle {
 }
 
 /* ----------------------------------------------------------------------------------------
-*                                08. Recommendation area css
+*                                09. Recommendation area css
 * --------------------------------------------------------------------------------------- */
 .recommendation-area {
     background: #f5f5f5;
@@ -779,7 +781,7 @@ h3.subtitle {
 
 
 /* ----------------------------------------------------------------------------------------
-*                                   09. Footer area css
+*                                   10. Footer area css
 * --------------------------------------------------------------------------------------- */
 .footer-area {
     background: #333;
