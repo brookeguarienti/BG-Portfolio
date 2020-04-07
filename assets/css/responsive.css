@@ -40,7 +40,7 @@
         padding-top: 0px;
     }
     .social {
-        text-align: left;
+        text-align: center;
         border-right: none;
         border-bottom: 1px dashed #999;
         padding-left: 15px;
@@ -62,14 +62,6 @@
     .skills.left ,
     .accordion.left {
         margin-bottom: 50px;
-    }
-    .skill-progress-bar {
-        margin-bottom: 30px;
-    }
-
-    .single-service,
-    .price-item {
-        margin-bottom: 30px;
     }
     .portfolio-caption h4 {
         margin-top: 80px;
@@ -123,7 +115,7 @@
     }
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
-        background: #337ab7;
+        background: #508991;
     }
     .navbar {
         min-height: 0px;
@@ -142,21 +134,23 @@
     .navbar-fixed-top .navbar-collapse {
         max-height: 420px;
     }
-    .navbar-toggle {}
+    
     a.about-button {
         margin-top: 0;
     }
 
-    .header-area:before {
-        /*background: rgba(255, 255, 255, 0.5);*/
-    }
-
-    .me-image {}
-    .resume-area {}
     .skills-area {
         padding-bottom: 10px;
     }
 
+    .skills-area.section .skills.left {
+        text-align: center;
+    }
+
+    .skills-area.section .skills {
+        text-align: center;
+        margin-bottom: 30px;
+    }
 
     .about-text h2,
     .single-service h2,
